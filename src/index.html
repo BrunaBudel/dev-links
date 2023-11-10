@@ -1,63 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="">
+<html lang="pt-BR" >
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
+  <link href="/src/style.css" rel="stylesheet">
   <title>Dev Links</title>
 </head>
-<body class="bg-light-mode dark:bg-dark-mode max-lg:bg-light-mode-mobile dark:max-lg:bg-dark-mode-mobile text-black dark:text-white flex flex-col items-center pt-[56px] bg-no-repeat bg-cover ">
-  <div class="space-y-2">
-    <img src="https://github.com/BrunaBudel.png" alt="" class="w-28 rounded-full">
-    <p>@BrunaBudel</p>
-  </div>
-  <ul class="list-none space-y-4 mt-4 w-full px-6 max-w-[540px]">
-    <li class="py-4 w-full flex justify-center dark:bg-white/25 bg-black/25 rounded-lg border dark:border-white border-black hover:border-[1.5px] transition">
-      <a href="https://github.com/BrunaBudel" target="_blank">Veja meu portfólio</a>
-    </li>
-    <li class="py-4 w-full flex justify-center dark:bg-white/25 bg-black/25 rounded-lg border dark:border-white border-black hover:border-[1.5px] transition">
-      <a href="https://linkedin.com/in/bruna-kodama-76ba841bb" target="_blank">Conecte comigo no Linkedin</a>
-    </li>
-    <li class="py-4 w-full flex justify-center dark:bg-white/25 bg-black/25 rounded-lg border dark:border-white border-black hover:border-[1.5px] transition">
-      <a href="#" target="_blank">
-        Me envie um e-mail
+<body>
+  <div class="min-h-screen bg-light-mode dark:bg-dark-mode max-lg:bg-light-mode-mobile dark:max-lg:bg-dark-mode-mobile text-black dark:text-white flex flex-col items-center pt-[56px] bg-no-repeat bg-cover ">
+    <div class="space-y-2">
+      <img src="https://github.com/BrunaBudel.png" alt="" class="w-28 rounded-full">
+      <p>@BrunaBudel</p>
+    </div>
+    <div class="py-4" id="switch" onclick="darkModeToggle()">
+      <button></button>
+      <span></span>
+    </div>
+    <ul class="list-none space-y-4 mt-4 w-full px-6 max-w-[540px]">
+      <li class="py-4 w-full flex justify-center dark:bg-white/25 bg-black/25 rounded-lg border dark:border-white border-black hover:border-[1.5px] transition">
+        <a href="https://github.com/BrunaBudel" target="_blank">Veja meu portfólio</a>
+      </li>
+      <li class="py-4 w-full flex justify-center dark:bg-white/25 bg-black/25 rounded-lg border dark:border-white border-black hover:border-[1.5px] transition">
+        <a href="https://linkedin.com/in/bruna-kodama-76ba841bb" target="_blank">Conecte comigo no Linkedin</a>
+      </li>
+      <li class="py-4 w-full flex justify-center dark:bg-white/25 bg-black/25 rounded-lg border dark:border-white border-black hover:border-[1.5px] transition">
+        <a href="#" target="_blank">
+          Me envie um e-mail
+        </a>
+      </li>
+    </ul>
+    <div class="flex items-center gap-4 py-6">
+      <a 
+        href="https://github.com/BrunaBudel" 
+        class="flex items-center justify-center rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition"
+        target="_blank"
+      >
+        <ion-icon name="logo-github" class="h-6 w-6"></ion-icon>
       </a>
-    </li>
-  </ul>
-  <div class="flex items-center gap-4 py-6">
-    <a 
-      href="https://github.com/BrunaBudel" 
-      class="flex items-center justify-center rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition"
-      target="_blank"
-    >
-      <ion-icon name="logo-github" class="h-6 w-6"></ion-icon>
-    </a>
-    <a 
-      href="https://linkedin.com/in/bruna-kodama-76ba841bb" 
-      class="flex items-center justify-center rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition" 
-      target="_blank"
-    >
-      <ion-icon name="logo-linkedin" class="h-6 w-6" ></ion-icon>
-    </a>
-    <a 
-      href="#" 
-      class="flex items-center justify-center rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition" 
-      target="_blank"
-    >
-      <ion-icon name="logo-instagram" class="h-6 w-6"></ion-icon>
-    </a>
-    <a 
-      href="#" 
-      class="flex items-center justify-center rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition" 
-      target="_blank"
-    >
-      <ion-icon name="mail-outline" class="h-6 w-6"></ion-icon>
-    </a>
+      <a 
+        href="https://linkedin.com/in/bruna-kodama-76ba841bb" 
+        class="flex items-center justify-center rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition" 
+        target="_blank"
+      >
+        <ion-icon name="logo-linkedin" class="h-6 w-6" ></ion-icon>
+      </a>
+      <a 
+        href="#" 
+        class="flex items-center justify-center rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition" 
+        target="_blank"
+      >
+        <ion-icon name="logo-instagram" class="h-6 w-6"></ion-icon>
+      </a>
+      <a 
+        href="#" 
+        class="flex items-center justify-center rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition" 
+        target="_blank"
+      >
+        <ion-icon name="mail-outline" class="h-6 w-6"></ion-icon>
+      </a>
+    </div>
+    <footer>
+      <p>Feito com ♥ por Bruna</p>
+    </footer>
   </div>
-  <footer>
-    <p>Feito com ♥ por Bruna</p>
-  </footer>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
