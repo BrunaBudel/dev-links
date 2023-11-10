@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
-  <title>Document</title>
+  <title>Dev Links</title>
 </head>
-<body>
-  <img src="https://github.com/BrunaBudel.png" alt="" class="w-24 rounded-full">
-  <ul class="list-none">
-    <li>Veja meu portfólio</li>
-    <li>Conecte comigo no Linkedin</li>
-    <li>Me envie um e-mail</li>
-  </ul>
-  <div>
-    <ion-icon name="logo-github"></ion-icon>
-    <ion-icon name="logo-linkedin"></ion-icon>
-    <ion-icon name="logo-instagram"></ion-icon>
-    <ion-icon name="mail-outline"></ion-icon>
+<body class="bg-light-mode dark:bg-dark-mode max-lg:bg-light-mode-mobile dark:max-lg:bg-dark-mode-mobile text-black dark:text-white flex flex-col items-center pt-[56px] bg-no-repeat bg-cover ">
+  <div class="space-y-2">
+    <img src="https://github.com/BrunaBudel.png" alt="" class="w-28 rounded-full">
+    <p>@BrunaBudel</p>
   </div>
+  <ul class="list-none space-y-4 mt-4 w-full px-6 max-w-[540px]">
+    <li class="py-4 w-full flex justify-center dark:bg-white/25 bg-black/25 rounded-lg border dark:border-white border-black hover:border-[1.5px] transition">Veja meu portfólio</li>
+    <li class="py-4 w-full flex justify-center dark:bg-white/25 bg-black/25 rounded-lg border dark:border-white border-black hover:border-[1.5px] transition">Conecte comigo no Linkedin</li>
+    <li class="py-4 w-full flex justify-center dark:bg-white/25 bg-black/25 rounded-lg border dark:border-white border-black hover:border-[1.5px] transition">Me envie um e-mail</li>
+  </ul>
+  <div class="flex items-center gap-4 py-6">
+    <ion-icon name="logo-github" class="h-6 w-6 rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition"></ion-icon>
+    <ion-icon name="logo-linkedin" class="h-6 w-6 rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition" ></ion-icon>
+    <ion-icon name="logo-instagram" class="h-6 w-6 rounded-full p-3 hover:bg-black/25 dark:hover:bg-white/25 transition"></ion-icon>
+    <ion-icon name="mail-outline" class="h-6 w-6 rounded-full p-3 hover:bg-black/25  dark:hover:bg-white/25 transition"></ion-icon>
+  </div>
+  <footer>
+    <p>Feito com ♥ por Bruna</p>
+  </footer>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
