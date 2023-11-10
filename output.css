@@ -534,16 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -554,10 +544,6 @@ video {
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .min-h-screen {
@@ -666,10 +652,6 @@ video {
 
 .pt-\[56px\] {
   padding-top: 56px;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .text-black {
